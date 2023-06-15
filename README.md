@@ -15,7 +15,9 @@ Likelihood ratio test- H0: corr = 0; the model with uncorrelated random effects 
 This gave a p-value of 0.8 < 0.05 based on the Chi squared reference distribution which suggests that there is enough evidence to reject H0 and therefore favour model 2.  
 _We are testing H0: corr = 0. The value of 0 is not on the boundary of the parameter space for corr :. the likelihood ratio test is suitable. _  
   
-Part 4 is more model fitting where we try an even simpler model without a random slope, m3. m3 and m2 are also compared using ANOVA with the result that the more complex model m2 should be favoured. 
+Part 4 is more model fitting where we try an even simpler model without a random slope, m3.  
+**Model 3**: random (subject-specific) intercept, common slope  
+m3 and m2 are also compared using ANOVA with the result that the more complex model m2 should be favoured. 
 _The parameter being tested for in the Likelihood ratio test is the variance component for the random slope.  
 H0: var = 0  
 The value of zero is on the boundary of the parameter space for var, therefore the p-value obtained from the Chi squared reference distribution is more conservative. In this case, because our p-value is significant this conservativeness does not take away from the conclusion that we can reject H0_   
